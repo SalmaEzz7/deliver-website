@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+pre{
+    color: #9c9999;
+    line-height: 1.6;
+    font-size: 15px;
+}
+img {
+    width: 20px;
+}
+h3{
+    padding-bottom: 20px;
+
+}
+/* nav*/
+nav {
+    height: 50px;
+    padding: 5px 7%;
+    background-color: #E5F4FB;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav div {
+    height: 100%;
+    position: relative;
+}
+
+.r-div {
+    padding-top: 1%;
+}
+.r-div img {
+    width: 70px;
+    height: 70%;
+}
+
+.r-div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    margin-top: -15px;
+    height: 50px;
+    width: 50px;
+}
+
+.fl {
+    height: 100px;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+a:hover{
+   color: #713386;
+   font-weight: bold;
+}
+/* end nav */
+/* header */
+header {
+    height: 400px;
+    width: 100%;
+    padding: 7% 9%;
+    background-image: url("../image/blue_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+header div {
+    width: 50%;
+}
+header div span{
+    color: #713386;
+}
+h1{
+    padding-bottom: 20px;
+}
+header div img {
+    width: 35%;
+    position: absolute;
+    bottom: -7%;
+    right: 0;
+}
+
+.Mask {
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-image: url("../image/waves.png");
+    background-size: cover;
+    bottom: 0;
+    right: 15%;
+    z-index: 1;
+}
+
+/* end header */
+/* sec1 */
+.sec1 {
+    height: 800px;
+    width: 100%;
+    padding: 7% 9%;
+    margin-bottom: 10%;
+    /* margin-top: 8%; */
+    background-image: url("../image/second_section_.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.sec1 div{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.sec1 div img{
+    width: 50%;
+}
+.i-1{
+     position: absolute;
+     left: -12%;
+     top: 6%;
+}
+.i-2{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.i-3 div h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.i-3 div p{
+    margin-left: -35%;
+}
+.i-3{
+    color: aliceblue;
+    position: absolute;
+    left: -10%;
+    top: 78%;
+}
+.i-3 div{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+.i-4{
+    position: absolute;
+    left: 50%;
+    top: 78%;
+}
+/* end sec1 */
+/* sec2 */
+.sec2{
+    height: 550px;
+    padding: 10% 9%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.sec2 img{
+    width: 15%;
+    height: 70%;
+}
+.s-1{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+.s-2{
+    position: absolute;
+    right: 25%;
+    top: 50%;
+}
+.sec2 div{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.sec2 div img{
+    width: 80%;
+    height: 60%;
+}
+/* end sec2 */
+/* sec3 */
+.sec3{
+    height: 600px;
+    padding: 10% 9%;
+    background-image: url("../image/Group\ 1131.png");
+    /* background-size: cover; */
+    background-position: top;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.con{
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+}
+.con div,
+.con div div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 4px;
+}
+.con div div{
+    background-color: aliceblue;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    width: 110px;
+}
+ .con div div p{
+    padding-left: 10px;
+} 
+.con2 img{
+    width: 50% ;
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+}
+.a-end a{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* end sec3 */
